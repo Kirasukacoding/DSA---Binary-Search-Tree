@@ -21,11 +21,11 @@ public class Main {
         tree.insert(new Node(8));
 
         // SEARCH
-        System.out.println("Search 7: " + tree.search(7));     // Output: true
-        System.out.println("Search 100: " + tree.search(100)); // Output: false
+        System.out.println("Search 7: " + tree.search(7));     // true
+        System.out.println("Search 100: " + tree.search(100)); // false
 
         // REMOVE / DELETE
-        tree.remove(10);
+        tree.remove(10); //not found
         tree.remove(5);
 
         tree.display();
