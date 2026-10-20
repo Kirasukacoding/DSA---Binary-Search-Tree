@@ -1,6 +1,4 @@
 // BINARY SEARCH TREE
-// name: Syakira Agile M
-// 001202500117
 
 public class Main {
 
